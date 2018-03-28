@@ -1,4 +1,4 @@
-FROM rabbitmq:management
+FROM bitnami/rabbitmq
 
 COPY rabbitmq_delayed_message_exchange-20171201-3.7.x.ez plugins/rabbitmq_delayed_message_exchange-20171201-3.7.x.ez
 
